@@ -1,1 +1,88 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aadit Patel</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/websiteCSS.css">
+    <script src="canvLJS.js" ></script>
+     <script src="canvRJS.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+<div class="col-md-3" id = "canvL">
+  <canvas id="canvas" width="1250" height="680">
+  </canvas>
+  </div>
+<div class="col-md-6 " id = "middleSection">
+	<img src = "images/WebsiteSelfie.jpeg" id = "selfie" style="width:250px;height:200px";>
+	<h2>Aadit Patel</h2>
+	<h3>Software Developer </h3>
+  	<hr/>
+  		<ul class="nav nav-tabs">
+		    <li class="active"><a data-toggle="tab" href="#home">
+		    <img src = "images/homeImage.png" style="width:25px;height:25px">    Home</a></li>
+		    <li><a data-toggle="tab" href="#portfolio">
+		    <img src = "images/portfolioImage.png" style="width:25px;height:25px">   Portfolio </a></li>
+		    <li><a data-toggle="tab" href="#contact">
+		    	<img src = "images/contactImage.png" style="width:25px;height:25px">   Contact</a></li>
+		    <li><a data-toggle="tab" href="#resume">
+		    <img src = "images/resumeImage.png" style="width:25px;height:25px">   Resume</a></li>
+  		</ul>
+
+  		<div class="tab-content">
+    		<div id="home" class="tab-pane fade in active">
+    		<h4> About Me </h4>
+    		<p id = "about">
+    		<br/>
+    			Hello, my name is Aadit and I am a senior at the 
+    			University of Maryland College Park. I am currently studying
+    			Computer Science with a minor in Statistics. If you had known me 
+    			before I came to college, you would have thought computer science
+    			would be the last thing I would be doing. Over the few years I have spent studying the subject, I have gained a love for coding that I would have never thought possible and I hope to show that through current and future projects.
+    			<br/><br/>
+
+    			Other than coding, I am very passionate about music and sports. I have been taught myself guitar and piano and have been playing on and off for years. Music has been a stress relief to me and if i'm ever feeling overwhelmed by a project, I just grab my guitar or piano and play some tunes for a bit.
+
+    			<br/><br/>
+
+    			
+    		</p>
+      			
+    		</div>
+   			<div id="portfolio" class="tab-pane fade">
+      			<h3>Portfolio </h3>
+      			<p>To view my Github, Click <a href = "https://github.com/AaditPatel13">
+            HERE <img src = "images/githubImage.png" style="width:25px;height:25px">
+            </a>
+            <br/> <br/>
+            </p>
+    		</div>
+    		<div id="contact" class="tab-pane fade">
+      			<h4>Contact Information</h4>
+      			<p>
+      				<strong>Name</strong>: Aadit Patel <br/>
+      				<strong> Phone Number</strong>: 215-630-5313 <br/>
+      				<strong> Email </strong>: <a href="mailto:AaditPatel13@gmail.com">AaditPatel13@gmail.com</a><br> 
+      				<strong> Location </strong>: College Park, Md <br/>
+
+      			</p>
+    		</div>
+    		<div id="resume" class="tab-pane fade">
+      			<a href = "images/JobResume.pdf">
+      				<h4>Click here to view resume</h4>
+      			</a>
+      			
+   			</div>
+  		</div>
+	</div>
+
+</div>
+</body>
+</html>

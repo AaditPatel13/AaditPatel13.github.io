@@ -1,0 +1,27 @@
+h2 {
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+#selfie{
+	display:block;
+   	margin:0 auto;
+   	width:200px;
+}
+
+#middleSection {
+	border-style: inset;
+}
+
+
+.container {
+    display:table;
+    width: 100%;
+    margin-top: -50px;
+    padding: 50px 0 0 0; 
+    box-sizing: border-box;
+}
+
