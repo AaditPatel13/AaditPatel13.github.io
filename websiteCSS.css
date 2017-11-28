@@ -6,7 +6,8 @@ h2, h3, h4{
 }
 
 #selfie{
-  display:block;
+  
+    display:block;
     margin:0 auto;
     width:200px;
     border-style: solid;
@@ -14,19 +15,20 @@ h2, h3, h4{
     border-radius: 60%;
 }
 
+body{
+  background-image: url("images/background.jpg");
+}
 
 
 #middleSection {
   border-style: inset;
   border-radius: 25px;
-  background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-color: #b3caef;
   background-blend-mode: screen;
 }
 
 div, body{
-
   color: white;
   
 }
