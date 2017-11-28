@@ -1,4 +1,13 @@
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; 
+     zoom:1;
+}
 
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
 
 h2, h3, h4{
   text-align:  center;
